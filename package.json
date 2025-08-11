@@ -1,10 +1,10 @@
 {
-  "name": "@khmyznikov/pwa-install",
-  "version": "0.5.7",
+  "name": "@esys/pwa-install",
+  "version": "1.0.0-fi.0",
   "description": "PWA install dialog provide more convenience user experience and fix lack of native dialogs in some browsers.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khmyznikov/pwa-install.git"
+    "url": "git+https://github.com/Esys-Oy/pwa-install.git"
   },
   "type": "module",
   "exports": {
@@ -87,9 +87,9 @@
     "@types/dom-chromium-installation-events": "^101.0.4"
   },
   "bugs": {
-    "url": "https://github.com/khmyznikov/pwa-install/issues"
+    "url": "https://github.com/Esys-Oy/pwa-install/issues"
   },
-  "homepage": "https://github.com/khmyznikov/pwa-install#readme",
+  "homepage": "https://github.com/Esys-Oy/pwa-install#readme",
   "keywords": [
     "PWA",
     "lit-element",
