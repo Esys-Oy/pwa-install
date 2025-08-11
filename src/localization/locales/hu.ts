@@ -15,7 +15,6 @@
 's2d90afa5dcca2c0e': `3) Görgessen le a "Hozzáadás a kezdőképernyőhöz" lehetőséghez`,
 's37a9e8aec5713460': `Több`,
 's4593f304dac8848c': `2) Koppintson a "Hozzáadás a kezdőképernyőhöz" lehetőségre`,
-'s54cfbb14f46396d4': `1) Nyissa meg a fő böngészőjében`,
 's6196153c4b0c1ea0': `Telepítés`,
 's922329d6f6213590': `Hozzáadás a Dock-hoz`,
 'sa5ef80b4bb9b39f8': `Kevesebb`,
@@ -25,5 +24,6 @@
 'scdaf4bbff76674c8': `Hozzáadás a kezdőképernyőhöz`,
 'se740f75b95a51807': `Adja hozzá a Dock-hoz a teljes élmény és a könnyű hozzáférés érdekében.`,
 'sfea652f6580ff086': `Ez az oldal alkalmazásfunkcióval rendelkezik.`,
+'s9cc8c5b8311481e0': `1) Open in Safari`,
     };
   

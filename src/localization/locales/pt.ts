@@ -15,7 +15,6 @@
 's2d90afa5dcca2c0e': `3) Role para baixo até "Adicionar à Tela de Início"`,
 's37a9e8aec5713460': `Mais`,
 's4593f304dac8848c': `2) Toque em "Adicionar à Tela de Início"`,
-'s54cfbb14f46396d4': `1) Abra no seu navegador principal`,
 's6196153c4b0c1ea0': `Instalar`,
 's922329d6f6213590': `Adicionar ao Dock`,
 'sa5ef80b4bb9b39f8': `Menos`,
@@ -25,5 +24,6 @@
 'scdaf4bbff76674c8': `Adicionar à Tela de Início`,
 'se740f75b95a51807': `Adicione ao Dock para uma melhor experiência e mais fácil acesso.`,
 'sfea652f6580ff086': `Este site possui funcionalidade de aplicativo.`,
+'s9cc8c5b8311481e0': `1) Open in Safari`,
     };
   

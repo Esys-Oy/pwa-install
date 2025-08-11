@@ -15,7 +15,6 @@
 's2d90afa5dcca2c0e': `3) Scrollen Sie nach unten zu "Zum Startbildschirm hinzufügen"`,
 's37a9e8aec5713460': `Mehr`,
 's4593f304dac8848c': `2) Tippen Sie auf "Zum Startbildschirm hinzufügen"`,
-'s54cfbb14f46396d4': `1) Öffnen Sie es in Ihrem Hauptbrowser`,
 's6196153c4b0c1ea0': `Installieren`,
 's922329d6f6213590': `Zum Dock hinzufügen`,
 'sa5ef80b4bb9b39f8': `Weniger`,
@@ -25,5 +24,6 @@
 'scdaf4bbff76674c8': `Hinzufügen zum Startbildschirm`,
 'se740f75b95a51807': `Fügen Sie es zu Ihrem Dock hinzu, um eine umfassende Erfahrung und einen leichten Zugriff zu erhalten.`,
 'sfea652f6580ff086': `Diese Website verfügt über App-Funktionalität.`,
+'s9cc8c5b8311481e0': `1) Open in Safari`,
     };
   

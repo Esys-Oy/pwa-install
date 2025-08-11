@@ -1,69 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-<file target-language="hu" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<file target-language="fi" source-language="en" original="lit-localize-inputs" datatype="plaintext">
 <body>
 <trans-unit id="s6196153c4b0c1ea0">
   <source>Install</source>
-  <target>Telepítés</target>
+  <target>Asenna</target>
 </trans-unit>
 <trans-unit id="s1488e73779d7682f">
   <source>1) Open your browser menu</source>
-  <target>1) Nyissa meg a böngészője menüjét</target>
+  <target>1) Avaa selaimen valikko</target>
 </trans-unit>
 <trans-unit id="s4593f304dac8848c">
   <source>2) Tap "Add to Home screen"</source>
-  <target>2) Koppintson a "Hozzáadás a kezdőképernyőhöz" lehetőségre</target>
+  <target>2) Napauta "Lisää Koti-valikkoon"</target>
 </trans-unit>
 <trans-unit id="sfea652f6580ff086">
   <source>This site has app functionality.</source>
-  <target>Ez az oldal alkalmazásfunkcióval rendelkezik.</target>
+  <target>Tällä sivustolla on sovellustoiminnot.</target>
 </trans-unit>
 <trans-unit id="sba52286c21552a4e">
   <source>Install it on your device for extensive experience and easy access.</source>
-  <target>Telepítse eszközére a teljes élmény és a könnyű hozzáférés érdekében.</target>
+  <target>Asenna se laitteellesi paremman käyttökokemuksen ja nopean käytön vuoksi.</target>
 </trans-unit>
 <trans-unit id="sa5ef80b4bb9b39f8">
   <source>Less</source>
-  <target>Kevesebb</target>
+  <target>Vähemmän</target>
 </trans-unit>
 <trans-unit id="s37a9e8aec5713460">
   <source>More</source>
-  <target>Több</target>
+  <target>Lisää</target>
 </trans-unit>
 <trans-unit id="se740f75b95a51807">
   <source>Add it to your Dock for extensive experience and easy access.</source>
-  <target>Adja hozzá a Dock-hoz a teljes élmény és a könnyű hozzáférés érdekében.</target>
+  <target>Lisää se Dockiin paremman käyttökokemuksen ja nopean käytön vuoksi.</target>
 </trans-unit>
 <trans-unit id="s182ab2d6c997515f">
   <source>Add it to your Home Screen for extensive experience and easy access.</source>
-  <target>Adja hozzá a kezdőképernyőjéhez a teljes élmény és a könnyű hozzáférés érdekében.</target>
+  <target>Lisää se Koti-valikkoon paremman käyttökokemuksen ja nopean käytön vuoksi.</target>
 </trans-unit>
 <trans-unit id="s1b9047d53d9f9d22">
   <source>2) Press Share in Navigation bar</source>
-  <target>2) Nyomja meg a Megosztás gombot a navigációs sávban</target>
+  <target>2) Paina Jaa-painiketta navigointipalkissa</target>
 </trans-unit>
 <trans-unit id="sa7551383d1897fcc">
   <source>2) Press Add to Dock</source>
-  <target>2) Nyomja meg a Hozzáadás a Dock-hoz gombot</target>
+  <target>2) Paina "Lisää Dockiin"</target>
 </trans-unit>
 <trans-unit id="s2d90afa5dcca2c0e">
   <source>3) Scroll down to "Add to Home Screen"</source>
-  <target>3) Görgessen le a "Hozzáadás a kezdőképernyőhöz" lehetőséghez</target>
+  <target>3) Vieritä ja valitse "Lisää Koti-valikkoon"</target>
 </trans-unit>
 <trans-unit id="sc79fd7641eb9a975">
   <source>Hide Instruction</source>
-  <target>Útmutató elrejtése</target>
+  <target>Piilota ohje</target>
 </trans-unit>
 <trans-unit id="s922329d6f6213590">
   <source>Add to Dock</source>
-  <target>Hozzáadás a Dock-hoz</target>
+  <target>Lisää Dockiin</target>
 </trans-unit>
 <trans-unit id="scdaf4bbff76674c8">
   <source>Add to Home Screen</source>
-  <target>Hozzáadás a kezdőképernyőhöz</target>
+  <target>Lisää Koti-valikkoon</target>
 </trans-unit>
 <trans-unit id="s9cc8c5b8311481e0">
   <source>1) Open in Safari</source>
+  <target>1) Avaa Safarissa</target>
 </trans-unit>
 </body>
 </file>

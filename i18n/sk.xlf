@@ -38,10 +38,6 @@
   <source>Add it to your Home Screen for extensive experience and easy access.</source>
   <target>Pridajte ju na domovskú obrazovku pre rozšírené využitie a jednoduchý prístup.</target>
 </trans-unit>
-<trans-unit id="s54cfbb14f46396d4">
-  <source>1) Open in your main browser</source>
-  <target>1) Otvorte v hlavnom prehliadači</target>
-</trans-unit>
 <trans-unit id="s1b9047d53d9f9d22">
   <source>2) Press Share in Navigation bar</source>
   <target>2) Stlačte Zdieľať na navigačnom paneli</target>
@@ -65,6 +61,9 @@
 <trans-unit id="scdaf4bbff76674c8">
   <source>Add to Home Screen</source>
   <target>Pridať na domovskú obrazovku</target>
+</trans-unit>
+<trans-unit id="s9cc8c5b8311481e0">
+  <source>1) Open in Safari</source>
 </trans-unit>
 </body>
 </file>

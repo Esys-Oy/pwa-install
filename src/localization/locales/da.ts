@@ -15,7 +15,6 @@
 's2d90afa5dcca2c0e': `3) Rul ned til "Tilføj til hjemmeskærm"`,
 's37a9e8aec5713460': `Mere`,
 's4593f304dac8848c': `2) Tryk på "Tilføj til hjemmeskærm"`,
-'s54cfbb14f46396d4': `1) Åbn i din primære browser`,
 's6196153c4b0c1ea0': `Installer`,
 's922329d6f6213590': `Tilføj til Dock`,
 'sa5ef80b4bb9b39f8': `Mindre`,
@@ -25,5 +24,6 @@
 'scdaf4bbff76674c8': `Tilføj til hjemmeskærm`,
 'se740f75b95a51807': `Tilføj den til din Dock for en bedre oplevelse og nem adgang.`,
 'sfea652f6580ff086': `Denne side har app-funktionalitet.`,
+'s9cc8c5b8311481e0': `1) Open in Safari`,
     };
   

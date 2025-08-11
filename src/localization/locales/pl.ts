@@ -15,7 +15,6 @@
 's2d90afa5dcca2c0e': `3) Przewiń w dół do opcji "Dodaj do Ekranu Głównego"`,
 's37a9e8aec5713460': `Więcej`,
 's4593f304dac8848c': `2) Naciśnij "Dodaj do Ekranu Głównego"`,
-'s54cfbb14f46396d4': `1) Otwórz w swojej głównej przeglądarce`,
 's6196153c4b0c1ea0': `Zainstaluj`,
 's922329d6f6213590': `Dodaj do Docka`,
 'sa5ef80b4bb9b39f8': `Mniej`,
@@ -25,5 +24,6 @@
 'scdaf4bbff76674c8': `Dodaj do Ekranu Głównego`,
 'se740f75b95a51807': `Dodaj do swojego Docka, aby uzyskać bogate doświadczenie i łatwy dostęp.`,
 'sfea652f6580ff086': `Ta strona posiada funkcje aplikacji.`,
+'s9cc8c5b8311481e0': `1) Open in Safari`,
     };
   

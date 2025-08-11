@@ -15,7 +15,6 @@
 's2d90afa5dcca2c0e': `3) "Ana Ekrana Ekle" seçeneğine kadar aşağı kaydırın`,
 's37a9e8aec5713460': `Daha Fazla`,
 's4593f304dac8848c': `2) "Ana Ekrana Ekle"ye dokunun`,
-'s54cfbb14f46396d4': `1) Ana tarayıcınızda açın`,
 's6196153c4b0c1ea0': `Yükle`,
 's922329d6f6213590': `Dock’a Ekle`,
 'sa5ef80b4bb9b39f8': `Küçült`,
@@ -25,5 +24,6 @@
 'scdaf4bbff76674c8': `Ana Ekrana Ekle`,
 'se740f75b95a51807': `Daha iyi bir deneyim ve kolay erişim için Dock’a ekleyin.`,
 'sfea652f6580ff086': `Bu site uygulama işlevselliğine sahiptir.`,
+'s9cc8c5b8311481e0': `1) Open in Safari`,
     };
   

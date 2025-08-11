@@ -15,7 +15,6 @@
 's2d90afa5dcca2c0e': `3) Faites défiler vers le bas jusqu'à "Ajouter à l'écran d'accueil"`,
 's37a9e8aec5713460': `Plus`,
 's4593f304dac8848c': `2) Touchez "Ajouter à l'écran d'accueil"`,
-'s54cfbb14f46396d4': `1) Ouvrir dans votre navigateur principal`,
 's6196153c4b0c1ea0': `Installer`,
 's922329d6f6213590': `Ajouter au Dock`,
 'sa5ef80b4bb9b39f8': `Moins`,
@@ -25,5 +24,6 @@
 'scdaf4bbff76674c8': `Ajouter à l'écran d'accueil`,
 'se740f75b95a51807': `Ajoutez-le à votre Dock pour une expérience étendue et un accès facile.`,
 'sfea652f6580ff086': `Ce site possède des fonctionnalités d'application.`,
+'s9cc8c5b8311481e0': `1) Open in Safari`,
     };
   
