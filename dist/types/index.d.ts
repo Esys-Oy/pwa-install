@@ -31,6 +31,7 @@ export declare class PWAInstallElement extends LitElement {
     isUnderStandaloneMode: boolean;
     isRelatedAppsInstalled: boolean;
     private _isRTL;
+    private _langObserver;
     private _manifest;
     private _howToRequested;
     private _galleryRequested;
@@ -49,6 +50,7 @@ export declare class PWAInstallElement extends LitElement {
     private _init;
     private _requestUpdate;
     connectedCallback(): Promise<void>;
+    disconnectedCallback(): void;
     willUpdate(changedProperties: PropertyValues<this>): void;
     render(): import("lit").TemplateResult<1>;
 }

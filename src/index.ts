@@ -69,6 +69,9 @@ export class PWAInstallElement extends LitElement {
 	private _isRTL = false;
 
 	/** @internal */
+	private _langObserver: MutationObserver | null = null;
+
+	/** @internal */
 	private _manifest: Manifest = new Manifest();
 	/** @internal */
 	private _howToRequested = false;
@@ -281,12 +284,29 @@ export class PWAInstallElement extends LitElement {
 	}
 
 	async connectedCallback() {
-		await changeLocale(navigator.language);
+		await changeLocale(document.documentElement.lang || navigator.language);
 		this._isRTL = isRTL();
 		await this._init();
 		PWAGalleryElement.finalized;
 		PWABottomSheetElement.finalized;
 		super.connectedCallback();
+
+		// Listen for lang attribute changes on <html>
+		this._langObserver = new MutationObserver(async (mutations) => {
+			for (const mutation of mutations) {
+				if (mutation.type === 'attributes' && mutation.attributeName === 'lang') {
+					await changeLocale(document.documentElement.lang || navigator.language);
+					this._isRTL = isRTL();
+					this.requestUpdate();
+				}
+			}
+		});
+		this._langObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+	}
+
+	disconnectedCallback() {
+		super.disconnectedCallback();
+		this._langObserver?.disconnect();
 	}
 
 	willUpdate(changedProperties: PropertyValues<this>) {
