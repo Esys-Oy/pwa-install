@@ -4,10 +4,14 @@
 
 **New to PWAs? Unsure how to create a Web App? Check out these resources for a quick start: [PWA Intro](https://docs.pwabuilder.com/#/home/pwa-intro), [PWA Starter](https://docs.pwabuilder.com/#/starter/quick-start), [PWA Builder](https://www.pwabuilder.com/)**
 
-Installation dialog for Progressive Web Application (PWA) and Add to Home Screen/Dock dialog for Web Apps. This offers an enhanced user experience and addresses the absence of native dialogs in certain browsers (Safari, Firefox, Opera, etc.). **20kB brotli** compressed bundle. Translation/localization is supported.
+Installation dialog for Progressive Web Application (PWA) and Add to Home Screen/Dock dialog for Web Apps. This offers an enhanced user experience and addresses the absence of native dialogs in certain browsers (Safari, Firefox, Opera, etc.). **28kB brotli** compressed bundle. Translation/localization is supported.
+
+✨ **Now with iOS/iPadOS/MacOS 26+ support** for native look and feel!
 
 Use it as [Web Component with any **modern** framework](https://custom-elements-everywhere.com/). No polyfill is required.
 - [React <= 18 sample](https://stackblitz.com/edit/vite-react-ts-2eeiak?file=src%2FApp.tsx)
+- [React 19+ sample](https://stackblitz.com/edit/react-19-web-components-shoelace-8rdjcfbb?file=src%2FApp.jsx)
+- [Next.js 15 + React 19 sample](https://stackblitz.com/edit/github-xrnbtug5?file=src%2Fapp%2F(delete-this-and-modify-page.tsx)%2FPWAInstall.tsx)
 - [Angular sample](https://stackblitz.com/edit/aozf92?file=package.json,src%2Fapp%2Fpwa-install%2Fpwa-install.component.html,src%2Fapp%2Fpwa-install%2Fpwa-install.component.ts)
 - [Svelte](https://stackblitz.com/edit/svelte-tab-2-sng9wa?file=src%2Froutes%2F%2Bpage.svelte)
   
@@ -16,28 +20,29 @@ Use it as [Web Component with any **modern** framework](https://custom-elements-
 ## **[Demo](https://khmyznikov.com/pwa-install/)**
 
 ## Gallery
-| iOS default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Install instruction | App gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iOS default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Install instruction | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |-|-|-|
-|![iOS example default](https://user-images.githubusercontent.com/6115884/169653932-5a9916b6-8d1f-4320-a595-86c3b797ae86.jpg)|![iOS example install instruction](https://user-images.githubusercontent.com/6115884/169654013-7d144d66-0021-44d8-8f1d-9a7d2c71cb07.jpg)|![iOS example gallery](https://user-images.githubusercontent.com/6115884/169654077-f48c9b63-2b6e-4291-a0e3-b33daf86d468.jpg)|
+|![iOS example default](https://github.com/user-attachments/assets/933a9669-2b1a-49e1-ad49-b4d8657bee8c)|![iOS example install instruction](https://github.com/user-attachments/assets/7f7bf553-8c7e-4840-a261-28b07534ca07)|![iOS example gallery](https://github.com/user-attachments/assets/be709716-bcc4-457c-a271-4e6696032f57)|
 
-| MacOS 14+ (Sonoma) | Install instruction |
-|---|---|
-|![sonoma_dialog-min](https://github.com/khmyznikov/pwa-install/assets/6115884/4ee02327-9abd-4d5e-a581-537dccb2187f)|![sonoma-dialog-open-min](https://github.com/khmyznikov/pwa-install/assets/6115884/6b147938-b55b-479a-85ea-1778868e6ff5)|
-
-
-
-| iPadOS |
+| MacOS 14-26+ (Tahoe) |
 |---|
-|![iPadOS example light](https://user-images.githubusercontent.com/6115884/169654199-1b474920-089c-44b5-8eca-534229ce0720.jpg)|
+|![macos_default](https://github.com/user-attachments/assets/c868fa2a-283e-4dcb-b6c5-b2bacdc1749e)|
 
 
-| Android | Firefox/Opera/Others | App gallery&nbsp;&nbsp; |
+
+| &nbsp;&nbsp;&nbsp;&nbsp;iPadOS&nbsp;&nbsp;&nbsp;&nbsp; | Instruction |
+|---|---|
+|![iPadOS example default](https://github.com/user-attachments/assets/a9b94313-7a88-4042-88c4-be7cc585e236)|![iPadOS install instruction](https://github.com/user-attachments/assets/0f62be23-ba2a-4bf9-b979-058487ccc238)
+
+
+
+| Android | Firefox/ Opera/ Others | &nbsp;&nbsp;App gallery&nbsp;&nbsp; |
 |-|-|-|
-|![Android example default](https://user-images.githubusercontent.com/6115884/169654789-41fb88b3-97b2-4992-aab5-0def6015be21.jpg)|![Firefox Opera and others](https://github.com/user-attachments/assets/03131c42-8cd0-4e93-a2fe-d75a75223550)|![Android example white](https://user-images.githubusercontent.com/6115884/169654871-33f30d44-b70c-4912-a678-3d97fd0d80a8.jpg)|
+|![Android example default](https://github.com/user-attachments/assets/cd973d85-a7e7-4699-84c3-dc7c54aac146)|![Firefox Opera and others](https://github.com/user-attachments/assets/dc238509-96f6-4a8e-a8ba-7df0997a2c16)|![Android gallery](https://github.com/user-attachments/assets/98ac4107-c55b-464a-9881-bbc51721ac6d)|
 
 | Chrome&nbsp; | App Gallery&nbsp;&nbsp; |
 |---|---|
-|![Chrome example default](https://user-images.githubusercontent.com/6115884/169655166-07f02a6b-a72a-4eb8-8ae1-e5a32fcac530.jpg)|![Chrome example gallery](https://user-images.githubusercontent.com/6115884/169655205-34b9b1a8-328b-45f8-8cd2-f6524e82469e.jpg)|
+|![Chrome example default](https://github.com/user-attachments/assets/7406b3ff-4282-4a07-a3c1-e78f8949c00b)|![Chrome example gallery](https://github.com/user-attachments/assets/7c9722f1-0435-4901-ba21-d7e54b228022)|
 
 <br>
 
@@ -69,7 +74,9 @@ import '@khmyznikov/pwa-install';
 ```html
 <pwa-install></pwa-install>
 ```
-[React <= 18 polyfill](https://stackblitz.com/edit/vite-react-ts-2eeiak?file=src%2FApp.tsx)
+- [React <= 18 polyfill](https://stackblitz.com/edit/vite-react-ts-2eeiak?file=src%2FApp.tsx)
+- [React 19+ sample](https://stackblitz.com/edit/react-19-web-components-shoelace-8rdjcfbb?file=src%2FApp.jsx)
+- [Next.js 15 + React 19 sample](https://stackblitz.com/edit/github-xrnbtug5?file=src%2Fapp%2F(delete-this-and-modify-page.tsx)%2FPWAInstall.tsx)
 
 ### **[Demo](https://khmyznikov.com/pwa-install/)**
 
@@ -106,6 +113,23 @@ import '@khmyznikov/pwa-install';
 ```
 *Make a good manifest file and don't use name/descr/icon params. Boolean attributes needs to be removed to act like "false"*
 
+## Custom Styles
+
+*Only the Apple template supports styling, and only the tint color option is available as of today. More to come.*
+```html
+<!-- As attribute (JSON string) -->
+<pwa-install styles='{"--tint-color": "#6366f1"}'></pwa-install>
+```
+
+```javascript
+// As property (object)
+const pwaInstall = document.querySelector('pwa-install');
+pwaInstall.styles = { '--tint-color': '#6366f1' };
+
+// Or as attribute via JavaScript
+pwaInstall.setAttribute('styles', JSON.stringify({ '--tint-color': '#6366f1' }));
+```
+
 <br>
 
 ## Supported events
@@ -132,13 +156,14 @@ This is **not** a error and **not** a bug. This means that the component success
 <br>
 
 ## Supported properties (readonly)
-- userChoiceResult: string;
-- isDialogHidden: boolean
-- isInstallAvailable: boolean
-- isAppleMobilePlatform: boolean
-- isAppleDesktopPlatform: boolean
-- isUnderStandaloneMode: boolean
-- isRelatedAppsInstalled: boolean
+- userChoiceResult: *string*
+- isDialogHidden: *boolean*
+- isInstallAvailable: *boolean*
+- isAppleMobilePlatform: *boolean*
+- isAppleDesktopPlatform: *boolean*
+- isApple26Plus: *boolean*
+- isUnderStandaloneMode: *boolean*
+- isRelatedAppsInstalled: *boolean*
 
 ```html
 <script type="text/javascript">
@@ -191,31 +216,7 @@ document.getElementById("pwa-install").externalPromptEvent = window.promptEvent;
 ## Supported localization
 
 Translations available:
-- *EN*
-- *RU*
-- *TR*
-- *DE*
-- *ES*
-- *NL*
-- *EL*
-- *FR*
-- *SR*
-- *PL*
-- *ZH-CN*/*ZH-HK*
-- *IT*
-- *UK*
-- *CS*
-- *NO/NB*
-- *PT*
-- *JA*
-- *SV*
-- *KO*
-- *KM*
-- *DA*
-- *VI*
-- *FA*
-- *HU*
-- *SK*
+*EN*, *RU*, *TR*, *DE*, *ES*, *NL*, *EL*, *FR*, *SR*, *PL*, *ZH-CN*/*ZH-HK*, *IT*, *UK*, *CS*, *NO/NB*, *PT*, *JA*, *SV*, *KO*, *KM*, *DA*, *VI*, *FA*, *HU*, *SK*, *CA-ES*, *HE*
 
 Language should change automatically based on browser settings. Please create the pull-request if you want to help with translation to your language. It's an easy process.
 
@@ -224,8 +225,6 @@ Language should change automatically based on browser settings. Please create th
 <br>
 
 ## ROADMAP
-- samsung mobile support
-- mozilla mobile support
 - manual theme
 
 

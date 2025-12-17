@@ -27,6 +27,8 @@
     "vi",
     "hu",
     "sk",
+    "ca-ES",
+    "he",
     "fi"
   ],
   "tsConfig": "tsconfig.json",
