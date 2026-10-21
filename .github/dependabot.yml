@@ -1,0 +1,24 @@
+# Dependabot (Esys defence system, registered in Esys-Oy/intra infra/registry/repo/pwa-install.json).
+# Alerts and security updates are on in the repository settings. This file adds a weekly,
+# grouped look for new versions of what is security relevant here. cooldown: a release must be
+# a week old first, so a hijacked package is usually pulled before it reaches us.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "05:00"
+      timezone: Europe/Helsinki
+    open-pull-requests-limit: 5
+    cooldown:
+      default-days: 7
+    groups:
+      security:
+        applies-to: security-updates
+        patterns: ["*"]
+      minor-and-patch:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: [minor, patch]
